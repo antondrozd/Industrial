@@ -1,0 +1,27 @@
+.btn {
+  display: inline-block;
+  padding: 11px 25px;
+  font-size: 24px;
+  color: #fff;
+  text-decoration: none;
+  background-color: transparent;
+  border: 3px solid #f0caa1;
+  transition: all 0.3s;
+  &--md {
+    padding: 7px 39px;
+    font-family: $title-font;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+  &--sm {
+    padding: 8px 20px;
+    font-family: $title-font;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+  &:hover {
+    color: #ff9d34;
+    background-color: #fff;
+    border-color: #fff;
+  }
+}
