@@ -52,6 +52,22 @@
 
 @media #{$mobile-widths} {
 
+  .links__list {
+    justify-content: space-around;
+  }
 
+  .links__item {
+    padding-right: 0;
+    a {
+      display: block;
+      padding: 5px;
+    }
+    &:nth-child(-n+3) {
+      width: 33.33%;
+    }
+    &::after {
+      display: none;
+    }
+  }
 
 }
